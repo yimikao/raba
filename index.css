@@ -17,6 +17,20 @@ main {
     margin-top: 5em;
     text-align: center;
 }
+.intro-icons {
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-bottom: 5em;
+
+}
+
+.intro-icons img {
+    display: block;
+    width: 150px;
+}
 
 #intro-heading{
     font-size: 3em;
@@ -38,9 +52,10 @@ main {
     color: white;
     text-decoration: none;
     display: block;
-    width: 150px;
+    width: 300px;
     margin: auto;
-    margin-bottom: 10em;
+    margin-bottom: 1em;
+
     padding: 1em 2em ;
     border-radius: 5px;
 }
